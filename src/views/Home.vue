@@ -2,19 +2,37 @@
   <div class="home">
     <h1>Home page</h1>
 
-    
-    <p class="pink white--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde alias odio doloribus atque nam porro, laudantium quas quis neque quae nisi, magnam expedita veritatis suscipit officiis ipsum nemo dolor esse. </p>
-    <p class="pink lighten-4 red--text text-darken-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde alias odio doloribus atque nam porro, laudantium quas quis neque quae nisi, magnam expedita veritatis suscipit officiis ipsum nemo dolor esse. </p>
+    <v-btn class="pink white--text">getting started</v-btn>
+    <v-btn dark depressed color="pink">click me</v-btn>
+    <v-btn flat color="pink">Click me</v-btn>
 
-    <h1 class="display-4">Massive text</h1>
-    <h4 class="display-1">Smaller display</h4>
+    <!-- marterial design icon -->
+    <v-btn depressed class="pink white--text">
+      <v-icon left>email</v-icon>
+      <span>Email me</span>
+    </v-btn>
+
+    <v-btn depressed color="pink white--text" small>
+      <v-icon left small>alarm</v-icon>
+      <span>Clock</span>
+    </v-btn>
+
+    <v-btn depressed color="pink white--text" large>
+      <span>Clock</span>
+      <v-icon right large>android</v-icon>
+
+    </v-btn>
+
+    <v-btn fab flat dark color="purple"> 
+      <v-icon>favorite</v-icon>
+    </v-btn>
+
+
   </div>
-  </template>
+</template>
 
   <script>
-
-    export default {
-      components: {
-      }
-    }
-  </script>
+export default {
+  components: {}
+};
+</script>
